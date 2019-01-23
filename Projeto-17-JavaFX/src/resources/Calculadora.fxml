@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="184.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.impacta.noturno.javafx.controller.CalculadoraController">
+   <children>
+      <TextField fx:id="txtValor1" layoutX="160.0" layoutY="24.0" prefHeight="32.0" prefWidth="225.0" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="23.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtValor2" layoutX="160.0" layoutY="56.0" prefHeight="32.0" prefWidth="225.0" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="23.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtResultado" editable="false" layoutX="160.0" layoutY="88.0" prefHeight="32.0" prefWidth="225.0" AnchorPane.leftAnchor="160.0" AnchorPane.rightAnchor="23.0">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="21.0" layoutY="28.0" prefHeight="20.0" prefWidth="103.0" text="Valor 1:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="60.0" prefHeight="20.0" prefWidth="103.0" text="Valor 2:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="92.0" prefHeight="20.0" prefWidth="103.0" text="Resultado:">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextFlow layoutX="30.0" layoutY="134.0" prefHeight="31.0" prefWidth="268.0" textAlignment="CENTER" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#somaOnAction" prefHeight="31.0" prefWidth="49.0" text="+">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#subtraiOnAction" prefHeight="31.0" prefWidth="49.0" text="-">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#multiplicaOnAction" prefHeight="31.0" prefWidth="49.0" text="*">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#divideOnAction" prefHeight="31.0" prefWidth="49.0" text="/">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </TextFlow>
+   </children>
+</AnchorPane>

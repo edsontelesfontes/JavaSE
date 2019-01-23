@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.cursojava.projetofinal.ui.EstatisticasController">
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <TextArea fx:id="txtResumo" editable="false" layoutX="10.0" layoutY="10.0" wrapText="true" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font></TextArea>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane>
+         <children>
+            <Label fx:id="lblMensagem" BorderPane.alignment="CENTER" />
+         </children>
+      </AnchorPane>
+   </bottom>
+</BorderPane>
